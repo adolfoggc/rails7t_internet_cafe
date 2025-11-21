@@ -9,3 +9,10 @@ Ruby on Rails Template using Esbuild for easy Turborails interface with PostgreS
 - Railwindcss-rails 4.4
 - Redis 4.0.1
 - Sidekiq 8.0.7
+- Sidekiq Cron 2.3.1
+
+# Run Application
+`bin/dev`
+
+# Run Sidekiq with Cron Jobs
+`bundle exec sidekiq`
