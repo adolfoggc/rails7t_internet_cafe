@@ -12,8 +12,18 @@
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
-      <%= yield %>
+    <main class="w-screen">
+      <%= render "shared/topbar" %>
+      <div class="grid grid-cols-6" >
+        <%= render "shared/sidebar" %>
+        
+        <!-- dashboard -->
+        <div class="col-span-5 bg-red-100">
+          <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl px-6 py-5 m-8 border border-black/10 dark:border-white/10 min-h-screen">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
