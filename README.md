@@ -7,3 +7,5 @@ Ruby on Rails Template using Esbuild for easy Turborails interface with PostgreS
 - Rails 7.1.6
 - Rspec Rails 7.1.1
 - Railwindcss-rails 4.4
+- Redis 4.0.1
+- Sidekiq 8.0.7
