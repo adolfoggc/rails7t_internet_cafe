@@ -21,3 +21,6 @@ Be sure that all references of the original project name are changed in this fil
 
 # Run Sidekiq with Cron Jobs
 `bundle exec sidekiq`
+
+# Update manifest
+`bin/rails stimulus:manifest:update`
