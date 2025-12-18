@@ -1,11 +1,6 @@
-# Rails 7 Template
+# Ruby's Internet Cafe
 
-Ruby on Rails Template using Esbuild for easy Turborails interface with PostgreSQL
-
-Be sure that all references of the original project name are changed in this files:
-- app/views/layouts/application.html.erb
-- config/cable.yml
-- config/database.yml
+This is an example of an Internet Cafe App
 
 # Gems
 - Ruby 3.3.1
